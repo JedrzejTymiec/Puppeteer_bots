@@ -1,0 +1,16 @@
+{
+  "name": "pptr-ps5-bot",
+  "version": "1.0.0",
+  "description": "Bot to check ps5 price and buy when price is right",
+  "main": "index.js",
+  "scripts": {
+    "start:ps": "node ./node_modules/mocha/bin/mocha --timeout 30000 ./ps5/index.js",
+    "start:instagram": "node ./instagram/index.js"
+  },
+  "author": "JT",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^9.0.1",
+    "puppeteer": "^10.0.0"
+  }
+}
